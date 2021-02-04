@@ -15,7 +15,7 @@ class ResultViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        outputLabel.text = "こんにちは\(String(describing: outputValue!))さん"
+        outputLabel.text = "こんにちは、\(String(describing: outputValue!))さん"
 
         // Do any additional setup after loading the view.
     }
